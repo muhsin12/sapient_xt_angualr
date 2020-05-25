@@ -1,0 +1,17 @@
+.bg-details {
+    background-color: #4a4545;
+
+}
+.attribute{
+    color: white;
+    border-bottom:1px solid #fff;
+    padding: 10px;
+}
+.value{
+    color:yellow;
+    border-bottom:1px solid #fff;
+    padding: 10px;
+}
+.automargin{
+    margin: auto;
+}

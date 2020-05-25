@@ -1,0 +1,38 @@
+<div class="border rounded my-3">
+    <div class="image">
+        <img class="img-fluid" src="{{item.image}}">
+    </div>
+    <div class="details">
+        <div class="bg-details">
+            <div class="row automargin">
+
+                <div class="col-md-6 col-xs-6 attribute">Name</div>
+                <div class="col-md-6 col-xs-6 value">{{item.name}}</div>
+            </div>
+            <div class="row automargin">
+
+                <div class="col-md-6 col-xs-6 attribute">Status</div>
+                <div class="col-md-6 col-xs-6 value">{{item.status}}</div>
+            </div>
+            
+            <div class="row automargin">
+                <div class="col-md-6 col-xs-6 attribute">Species</div>
+                <div class="col-md-6 col-xs-6 value">{{item.species}}</div>
+            </div>
+            <div class="row automargin">
+                <div class="col-md-6 col-xs-6 attribute">gender</div>
+                <div class="col-md-6 col-xs-6 value">{{item.gender}}</div>
+
+            </div>
+            <div class="row automargin">
+                <div class="col-md-6 col-xs-6 attribute">Origin</div>
+                <div class="col-md-6 col-xs-6 value">{{item.origin.name.substr(0,5)}}</div>
+
+            </div>
+            <div class="row automargin">
+                <div class="col-md-6 col-xs-6 attribute">Location</div>
+                <div class="col-md-6 col-xs-6 value">{{item.location.name.substr(0,5)}}</div>
+
+            </div>
+        </div>
+    </div>
